@@ -1,6 +1,6 @@
 class spaceship extends floater
 {
-  spaceship()
+  public spaceship()
   {
     myCenterX = myCenterY = 250; //holds center coordinates   
     corners = 4;  //the number of corners, a triangular floater has 3   
@@ -21,7 +21,7 @@ class spaceship extends floater
     myPointDirection = 0; //
   }
     
-  void hyperdrive()
+  public void hyperdrive()
   {
     myXspeed = myYspeed = 0;
     myCenterX = Math.random()*500;
