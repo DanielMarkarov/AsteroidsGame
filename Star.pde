@@ -1,4 +1,9 @@
-class Star //note that this class does NOT extend Floater
+class star
 {
-  //your code here
+void show()
+  {
+    noStroke();
+    fill(#FFFFFF);
+    ellipse((float)Math.random()*500, (float)Math.random()*500, 2, 2);
+  }
 }
