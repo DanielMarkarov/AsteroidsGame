@@ -21,7 +21,7 @@ class spaceship extends floater
     myPointDirection = 0; //
   }
     
-  public void hyperdrive()
+ public void hyperdrive()
   {
     myXspeed = myYspeed = 0;
     myCenterX = Math.random()*500;
