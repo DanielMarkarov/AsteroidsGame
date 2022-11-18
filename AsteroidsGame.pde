@@ -1,6 +1,6 @@
 floater[] array = new floater[25];
 spaceship woosh = new spaceship();
-void setup()
+public void setup()
 {
   translate(250, 250);
   size(500, 500);
@@ -12,7 +12,7 @@ void setup()
   }
 }
 
-void draw()
+public void draw()
 {
     background(0);
     for(int i = 0; i < 500; i++)
