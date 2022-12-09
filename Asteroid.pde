@@ -1,6 +1,5 @@
 class asteroid extends floater
-{
-  
+{ 
   private double turnSpeed;
   public asteroid()
   {
