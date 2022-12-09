@@ -13,7 +13,7 @@ public void setup()
 
 public void draw()
 {
-   
+
     background(0);
     for(int i = 0; i < 150; i++)
     {
@@ -51,9 +51,12 @@ public void draw()
     }
   }
   
+  
+  {
+  
   woosh.show();
   woosh.move();
-  
+  }
   }
 
 public void keyPressed()
